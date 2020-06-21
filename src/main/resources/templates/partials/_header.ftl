@@ -7,5 +7,12 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
+	
+	<script type="text/javascript" src="//7213732.collect.igodigital.com/collect.js"></script>
+
+	<script>
+	  _etmc.push(["setOrgId", "7213732"]);
+	  _etmc.push(["trackPageView"]);
+	</script>
 
 </head>

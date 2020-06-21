@@ -1,6 +1,10 @@
 <html>
 <#include "../partials/_header.ftl">
 <body>
+<script>
+  _etmc.push(["setOrgId", "7213732"]);
+  _etmc.push(["trackPageView", { "item" : "11111" }]);
+</script>
 <div class="container  ">
     <#include "../partials/_nav.ftl">
     <h1 align="center" class="display-4 mb-5">Product Detail</h1>
