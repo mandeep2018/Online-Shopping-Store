@@ -1,7 +1,15 @@
 <#import "/spring.ftl" as spring />
 <html>
 <#include "partials/_header.ftl">
+
+
 <body>
+<script type=”text/javascript”>
+	_etmc.push([“setOrgId”, “MID”]);
+	_etmc.push([“setUserInfo”, {“email”: “mandeep.aj1@gmail.com”}]);
+	_etmc.push([“trackPageView”]);
+</script>
+
 <div class="container ">
     <#include "partials/_nav.ftl">
     <h1 align="center" class="display-4 mb-5">Sign Up</h1>
