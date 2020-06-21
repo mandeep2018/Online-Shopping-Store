@@ -5,7 +5,7 @@
 
 <body>
 <script type=”text/javascript”>
-	_etmc.push([“setOrgId”, “MID”]);
+	_etmc.push([“setOrgId”, “7213732”]);
 	_etmc.push([“setUserInfo”, {“email”: “mandeep.aj1@gmail.com”}]);
 	_etmc.push([“trackPageView”]);
 </script>
