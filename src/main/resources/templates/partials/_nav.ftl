@@ -62,3 +62,7 @@
 
 <#--set all integer without comma-->
 <#setting number_format="computer">
+<script type="text/javascript">
+alert("test alert");
+</script>
+
