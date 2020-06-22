@@ -74,5 +74,14 @@
         var theUrl = "/cart/change?product_id=" + id + "&quantity=" + quantity;
         timeout = setTimeout(function(){location.href = theUrl} , 1000);
     }
+	
+	$(document).ready(function() {
+	 _etmc.push(["setOrgId", "7213732"]);   
+	 _etmc.push(["trackCart", { "cart": [
+    {"item" : "11112", "quantity":  "1", "price" : "500", "unique_id" : "222222222" },
+    {"item" : "11112", "quantity":  "1", "price" : "500", "unique_id" : "222222224" }
+  ]}]);
+		});
+	
 </script>
 </html>

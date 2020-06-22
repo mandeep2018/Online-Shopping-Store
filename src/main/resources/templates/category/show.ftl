@@ -10,5 +10,11 @@
 </div>
 <#include "../partials/_footer.ftl">
 </body>
+<script>
+$(document).ready(function() {
+	  _etmc.push(["setOrgId", "7213732"]);
+	  _etmc.push(["trackPageView", { "category" : "Clothes" }]);
+  });
+</script>
 </html>
 
