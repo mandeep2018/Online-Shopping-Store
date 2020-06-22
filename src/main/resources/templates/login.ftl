@@ -7,7 +7,7 @@
 		_etmc.push(["setOrgId", "7213732"]);
 		_etmc.push(["setUserInfo", {"email": "mandeep.aj1@gmail.com"}]);
 		_etmc.push(["trackPageView"]);
-  }
+  });
 </script>
 <body>
 <div class="container ">
