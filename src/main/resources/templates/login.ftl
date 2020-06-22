@@ -1,5 +1,12 @@
 <html>
 <#include "partials/_header.ftl">
+
+<script>
+	_etmc.push([“setOrgId”, “7213732”]);
+	_etmc.push([“setUserInfo”, {“email”: “mandeep.aj1@gmail.com”}]);
+	_etmc.push([“trackPageView”]);
+</script>
+
 <body>
 <div class="container ">
     <#include "partials/_nav.ftl">

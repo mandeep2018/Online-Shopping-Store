@@ -9,15 +9,9 @@
     <link rel="stylesheet" href="/css/style.css">
 	
 	<script type="text/javascript" src="//7213732.collect.igodigital.com/collect.js"></script>
-	<script>
-	  _etmc.push(["setOrgId", "7213732"]);
-	  _etmc.push(["trackPageView"]);
-	
-  _etmc.push(["setOrgId", "7213732"]);
-  _etmc.push(["trackCart", { "cart": [
-    {"item" : "333333332", "quantity":  "11", "price" : "500", "unique_id" : "" },
-    {"item" : "333333334", "quantity":  "1", "price" : "110", "unique_id" : "" }
-  ]}]);
-</script>
 </head>
+<script>
+  _etmc.push(["setOrgId", "7213732"]);
+  _etmc.push(["trackPageView"]);
+</script>
 

@@ -2,8 +2,6 @@
 <#include "../partials/_header.ftl">
 <body>
 <script>
-  _etmc.push(["setOrgId", "7213732"]);
-  _etmc.push(["trackPageView", { "item" : "11111" }]);
 </script>
 <div class="container  ">
     <#include "../partials/_nav.ftl">
@@ -66,5 +64,8 @@
         subtotal_e.innerHTML = unit + subtotal;
 
     }
+	
+  _etmc.push(["setOrgId", "7213732"]);
+  _etmc.push(["trackPageView", { "item" : "333333332" }]);
 </script>
 </html>
