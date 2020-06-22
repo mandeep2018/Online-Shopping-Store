@@ -4,9 +4,7 @@
 
 <script type="text/javascript">
 	$(document).ready(function() {
-		_etmc.push(["setOrgId", "7213732"]);
-		_etmc.push(["setUserInfo", {"email": "mandeep.aj1@gmail.com"}]);
-		_etmc.push(["trackPageView"]);
+		
   });
 </script>
 <body>
@@ -45,7 +43,7 @@
             </div>
 
             <div class="form-group">
-                <input type="submit" class="btn btn-lg btn-primary btn-block" value="Sign In"/>
+                <input type="button" id="signIn" class="btn btn-lg btn-primary btn-block" value="Sign In"/>
             </div>
         </form>
 
@@ -80,5 +78,16 @@
         document.getElementById("password").value = p;
         document.forms[0].submit();
     }
+	
+	$("#signIn").click(function(e){
+		e.preventDefault();
+		var email = document.getElementById("email").value;
+		console.log(email);
+		alert("signIn clicked");
+		   _etmc.push(["setOrgId", "7213732"]);     
+		   _etmc.push(["setUserInfo", {"email": email}]);     
+		   _etmc.push(["trackPageView"]);	 
+	});
+	
 </script>
 </html>
