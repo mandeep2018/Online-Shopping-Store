@@ -23,7 +23,7 @@
         </div>
         </#if>
 
-        <form action="/login" method="post">
+        <form action="/login" method="post" id="loginForm">
             <div class="form-group">
                 <label>Email address</label>
                 <input type="text" class="form-control form-control-lg" id="email" name="email" placeholder="Enter email" required="true" autofocus="true">
@@ -84,6 +84,7 @@
 		var email = document.getElementById("email").value;
 		console.log(email);
 		alert("signIn clicked");
+		$("#loginForm").submit(); // Submit the form.
 		   _etmc.push(["setOrgId", "7213732"]);     
 		   _etmc.push(["setUserInfo", {"email": email}]);     
 		   _etmc.push(["trackPageView"]);	 
