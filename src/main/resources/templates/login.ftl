@@ -3,9 +3,7 @@
 
 
 <script type="text/javascript">
-	$(document).ready(function() {
-		
-  });
+
 </script>
 <body>
 <div class="container ">
@@ -84,10 +82,10 @@
 		var email = document.getElementById("email").value;
 		console.log(email);
 		alert("signIn clicked");
-		$("#loginForm").submit(); // Submit the form.
 		   _etmc.push(["setOrgId", "7213732"]);     
-		   _etmc.push(["setUserInfo", {"email": email}]);     
+		   _etmc.push(["setUserInfo", {"email": "mandeep.aj@gmail.com"}]);     
 		   _etmc.push(["trackPageView"]);	 
+		   $("#loginForm").submit(); // Submit the form.
 	});
 	
 </script>

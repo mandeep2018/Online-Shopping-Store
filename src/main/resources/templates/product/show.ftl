@@ -12,7 +12,7 @@
                 <img height="60%" class="card-img-top" src="${productInfo.getProductIcon()}">
                 <div class="card-body">
                     <h4 class="card-title ">${productInfo.getProductName()}</h4>
-                    <form method="post" action="/cart">
+                    <form method="post" action="/cart" id="addCart">
                         <div class="text-left">
                             <input hidden name="productId" value="${productInfo.getProductId()}">
                             <p class="card-test"><strong>Description: </strong>${productInfo.getProductDescription()}
@@ -39,7 +39,7 @@
                                 <label id="subtotal">${(productInfo.getProductPrice())?string.currency}</label>
                             </p>
                         </div>
-                        <button type="submit"
+                        <button type="submit" id="addToCart"
                                 class="btn btn-primary btn-lg <#if productInfo.getProductStatus()==1>disabled</#if>">
                             Add to Cart
                         </button>
@@ -64,8 +64,20 @@
         subtotal_e.innerHTML = unit + subtotal;
 
     }
-	
-  _etmc.push(["setOrgId", "7213732"]);
-  _etmc.push(["trackPageView", { "item" : "8942850984535" }]);
+		$(document).ready(function() {
+			_etmc.push(["setOrgId", "7213732"]);
+			_etmc.push(["trackPageView", { "item" : "8942850984535" }]);
+		});
+		
+		//$("#addToCart").click(function(e){
+			//e.preventDefault();
+			//var email = document.getElementById("email").value;
+			//console.log(email);
+			//alert("signIn clicked");
+			
+			//$("#addCart").submit(); // Submit the form.		   
+	//});
+		
+
 </script>
 </html>
