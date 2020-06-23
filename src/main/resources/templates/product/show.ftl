@@ -50,6 +50,15 @@
         </div>
     </div>
 </div>
+<script>
+        $(document).ready(function() {
+		_etmc.push(["setOrgId", "7213732"]);
+		_etmc.push(["trackPageView"]);
+          
+        });
+  
+</script>
+
 </body>
 <#include "../partials/_footer.ftl">
 <script>
