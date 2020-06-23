@@ -64,14 +64,14 @@
 
 </div>
 <#include "../partials/_footer.ftl">
-<script>
-        $(document).ready(function() {
-		_etmc.push(["setOrgId", "7213732"]);
-		_etmc.push(["trackPageView"]);
-          
-        });
-  
-</script>
+	<script>
+			$(document).ready(function() {
+			_etmc.push(["setOrgId", "7213732"]);
+			_etmc.push(["trackPageView"]);
+			  
+			});
+	  
+	</script>
 </body>
 <script>
     var timeout = null;
@@ -87,7 +87,7 @@
 	 _etmc.push(["setOrgId", "7213732"]);   
 	 _etmc.push(["trackCart", { "cart": [
 	{"item" : "11111", "quantity":  "1", "price" : "500", "unique_id" : "111111116"},
-    {"item" : "11111", "quantity":  "1", "price" : "500", "unique_id" : "111111115" }
+    {"item" : "11111", "quantity":  "3", "price" : "500", "unique_id" : "111111115" }
 	]}]);
 		});
 	

@@ -75,7 +75,7 @@
     }
 		$(document).ready(function() {
 			_etmc.push(["setOrgId", "7213732"]);
-			_etmc.push(["trackPageView", { "item" : "111111115" }]);
+			_etmc.push(["trackPageView", { "item" : "11111" }]);
 		});
 		
 		//$("#addToCart").click(function(e){
