@@ -23,7 +23,7 @@
 <script>
 $(document).ready(function() {
 	  _etmc.push(["setOrgId", "7213732"]);
-	  _etmc.push(["trackPageView", { "category" : "Clothes" }]);
+	  _etmc.push(["trackPageView", { "category" : "Shirts" }]);
   });
 </script>
 </html>

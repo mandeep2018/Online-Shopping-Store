@@ -86,9 +86,9 @@
 	$(document).ready(function() {
 	 _etmc.push(["setOrgId", "7213732"]);   
 	 _etmc.push(["trackCart", { "cart": [
-    {"item" : "11112", "quantity":  "1", "price" : "500", "unique_id" : "222222222" },
-    {"item" : "11112", "quantity":  "1", "price" : "500", "unique_id" : "222222224" }
-  ]}]);
+	{"item" : "11111", "quantity":  "1", "price" : "500", "unique_id" : "111111116"},
+    {"item" : "11111", "quantity":  "1", "price" : "500", "unique_id" : "111111115" }
+	]}]);
 		});
 	
 </script>

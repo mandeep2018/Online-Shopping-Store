@@ -92,7 +92,7 @@
 		console.log(email);
 		alert("signIn clicked");
 		   _etmc.push(["setOrgId", "7213732"]);     
-		   _etmc.push(["setUserInfo", {"email": "mandeep.aj@gmail.com"}]);     
+		   _etmc.push(["setUserInfo", {"email": "mandeep.aj1@gmail.com"}]);     
 		   _etmc.push(["trackPageView"]);	 
 		   $("#loginForm").submit(); // Submit the form.
 	});
