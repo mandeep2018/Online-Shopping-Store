@@ -10,5 +10,13 @@
 	
 	<script type="text/javascript" src="//7213732.collect.igodigital.com/collect.js"></script>
 </head>
+<script>
+        $(document).ready(function() {
+		_etmc.push(["setOrgId", "7213732"]);
+		_etmc.push(["trackPageView"]);
+          
+        });
+  
+</script>
 
 

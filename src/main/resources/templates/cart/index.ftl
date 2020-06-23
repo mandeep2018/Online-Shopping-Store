@@ -64,14 +64,7 @@
 
 </div>
 <#include "../partials/_footer.ftl">
-	<script>
-			$(document).ready(function() {
-			_etmc.push(["setOrgId", "7213732"]);
-			_etmc.push(["trackPageView"]);
-			  
-			});
-	  
-	</script>
+
 </body>
 <script>
     var timeout = null;
